@@ -39,44 +39,6 @@ $numero_pedido = $row_novo_pedido1 . $row_nasc['senha'];
 	<script type="text/javascript" src="bootstrap.min.js"></script>
 
 	<style>
-		.calculadora {
-			margin-top: 40px;
-			border: solid 1px #000;
-			padding: 20px;
-			background-color: #2E2E2E;
-			border-radius: 10px;
-			box-shadow: 1px 1px 5px #000;
-		}
-
-		.bots {
-			width: 60px;
-			height: 50px;
-			margin: 5px;
-			box-shadow: 1px 1px 1px #000;
-		}
-
-		.clear {
-			width: 130px;
-		}
-
-		.enter {
-			height: 110px;
-		}
-
-		.zero {
-			width: 130px;
-		}
-
-		.resultado {
-			text-align: right;
-			font-size: 20px;
-			margin-top: 10px;
-			margin-bottom: 20px;
-			border: solid 1px #000;
-			box-shadow: 1px 1px 1px #000;
-		}
-
-
 		.aumentando {
 			font-size: 30px
 		}
@@ -289,11 +251,10 @@ $numero_pedido = $row_novo_pedido1 . $row_nasc['senha'];
 		<?php } ?>
 
 		<hr>
-		<p class="text-center"><small>Cortesia para Catedral Nossa Senhora de Nazaré - AC</small></p>
-
+	
 		<footer class="main-footer text-center">
 			<small>
-				<strong>Copyright &copy; 2024-<?php echo date('Y'); ?> <b>Version</b> 1.0 <br>Frederico de Oliveira Tavares.</strong>
+				<strong>Copyright &copy; 2024-<?php echo date('Y'); ?> <b>Version</b> 1.0 <br>Cortesia.</strong>
 			</small>
 		</footer>
 
