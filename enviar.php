@@ -100,7 +100,7 @@ if ($_POST["finalizado"] == 1) {
 		// echo "<hr><b class='text-danger'>TOTAL = " . $totalGeral;
 		// echo "</b><br>";
 
-		$cursos = array(
+		$pedidos = array(
 			"quantidade_final1" => $quantidade_final1,
 			"precos_final1" => $precos_final1,
 			"quantidade_final2" => $quantidade_final2,
@@ -111,6 +111,6 @@ if ($_POST["finalizado"] == 1) {
 			);
 
 
-		echo json_encode($cursos) ;
+		echo json_encode($pedidos) ;
 	}
 }
