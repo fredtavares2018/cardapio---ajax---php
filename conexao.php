@@ -5,9 +5,9 @@ ini_set('display_startup_erros', 0);
 error_reporting(E_ALL);
 
 $servername = 'localhost';
-$username = 'sicated_card';
-$password = 'h4yi9AY8JskW';
-$database = 'sicated_cardapi';
+$username = 'root';
+$password = '';
+$database = 'seu_banco';
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 
