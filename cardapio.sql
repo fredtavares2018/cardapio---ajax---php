@@ -49,23 +49,6 @@ CREATE TABLE `menosmais` (
   `pedido` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Extraindo dados da tabela `menosmais`
---
-
-INSERT INTO `menosmais` (`id`, `tipo`, `quantidade`, `precos`, `pedido`) VALUES
-(15, 1, 1, 5, 1),
-(16, 1, 1, 5, 1),
-(17, 1, 1, 4.5, 1),
-(18, 2, 1, 21.5, 1),
-(19, 2, 1, 21.5, 1),
-(20, 2, 1, 21.5, 1),
-(21, 2, 1, 4.5, 1),
-(22, 1, -1, -5, 1),
-(23, 2, -1, -21.5, 1),
-(24, 2, 1, 4.5, 1);
-
--- --------------------------------------------------------
 
 --
 -- Estrutura da tabela `produtos`
